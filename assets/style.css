@@ -1,0 +1,65 @@
+.container {
+	display: flex;
+}
+
+#menu {
+	flex: 1;
+	background-color: #0066cc;
+}
+
+#menu h1 {
+	font-size: 3.0em;
+	text-align: center;
+}
+
+#menu ul {
+	margin-top: 20px;
+}
+
+#menu ul li {
+	display: block;
+	margin-top: 10px;
+}
+
+
+#menu ul li a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #80bfff;
+	transition: all 0.3s;
+	color: black;
+}
+
+#menu ul li a:hover {
+	background-color: #b3d9ff;
+}
+
+#content {
+	position: relative;
+	background: url("background.jpg");
+}
+
+#content img {
+	width: 100%;
+	height: auto;
+}
+
+#info {
+	position: absolute;
+	z-index: 99;
+	top: 20%;
+	left: 20%;
+}
+
+#info h1 {
+	font-size: 3.0em;
+	text-align: center;
+}
+
+#info p {
+	text-align: center;
+	font-size: 1.9em;
+}
